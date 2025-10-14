@@ -281,14 +281,6 @@ WHERE transaction_timestamp >= current_timestamp() - INTERVAL 24 HOURS
 GROUP BY 1 ORDER BY 1;
 ```
 
-## 📚 Additional Resources
-
-### Documentation Links
-
-- [Databricks Streaming Guide](https://docs.databricks.com/structured-streaming/index.html)
-- [Delta Lake CDC](https://docs.databricks.com/delta/delta-change-data-feed.html)
-- [Unity Catalog](https://docs.databricks.com/data-governance/unity-catalog/index.html)
-
 ### Best Practices
 
 1. **Monitoring** - Set up comprehensive monitoring and alerting
@@ -297,25 +289,13 @@ GROUP BY 1 ORDER BY 1;
 4. **Security** - Implement proper access controls
 5. **Backup** - Regular backup of checkpoint locations
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
 
-For support and questions:
-
-- Create an issue in the repository
-- Contact the data engineering team
-- Check the troubleshooting section
 
 ---
 
